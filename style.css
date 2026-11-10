@@ -231,3 +231,31 @@ h3 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.galleria-luoghi {
+  width: 100%;
+  max-width: 54rem;
+}
+
+.galleria-luoghi figure {
+  margin: 0;
+}
+
+.galleria-luoghi img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 32rem;
+  object-fit: contain;
+}
+
+.galleria-luoghi figcaption {
+  padding: 0.75rem 3rem;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.galleria-luoghi .swiper-button-prev,
+.galleria-luoghi .swiper-button-next {
+  color: var(--colore-primario);
+}
