@@ -33,7 +33,7 @@
   <main id="contenuto" class="container">
     <section class="intro" aria-labelledby="titolo-info">
       <p class="eyebrow">12–13 giugno · Torino · Festival immaginario</p>
-      <h1 id="titolo-info">Informazioni e luoghi</h1>
+      <h1 id="titolo-info">Info e luoghi</h1>
       <p class="lead">Tutto quello che serve per orientarsi durante Segnale.</p>
       <p class="reading-text">
         Il festival si svolge in tre sedi a Torino. Consulta le informazioni
@@ -43,7 +43,7 @@
     </section>
 
     <section class="content-section" aria-labelledby="titolo-galleria">
-      <h2 id="titolo-galleria">Una galleria dei luoghi</h2>
+      <h2 id="titolo-galleria">Le sedi</h2>
 
       <div
         class="swiper galleria-luoghi"
@@ -118,8 +118,7 @@
         <a
           href="https://umap.openstreetmap.fr/it/map/segnale-sedi-del-festival-immaginario_1479665?scaleControl=false&amp;miniMapControl=false&amp;scrollWheelZoom=true&amp;zoomControl=true&amp;editMode=disabled&amp;moreControl=true&amp;searchControl=null&amp;tilelayersControl=null&amp;embedControl=null&amp;datalayersControl=true&amp;onLoadPanel=none&amp;captionBar=false&amp;captionMenus=true#12/45.0465/7.6528"
           target="_blank"
-          rel="noopener"
-        >
+          rel="noopener"></a>
           Visualizza la mappa a schermo intero
         </a>
       </p>
@@ -168,17 +167,18 @@
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.js"></script>
   <script>
-    new Swiper(".galleria-luoghi", {
-      slidesPerView: 1,
-      spaceBetween: 16,
-      loop: false,
-      autoplay: false,
-      navigation: {
-        nextEl: ".galleria-luoghi .swiper-button-next",
-        prevEl: ".galleria-luoghi .swiper-button-prev"
-      }
-    });
-  </script>
+  new Swiper(".galleria-luoghi", {
+    slidesPerView: 1,
+    spaceBetween: 16,
+    loop: false,
+    autoplay: false,
+    autoHeight: true,
+    navigation: {
+      nextEl: ".galleria-luoghi .swiper-button-next",
+      prevEl: ".galleria-luoghi .swiper-button-prev"
+    }
+  });
+</script>
 </body>
 </html>
 ```

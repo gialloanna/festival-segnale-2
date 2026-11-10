@@ -267,3 +267,18 @@ h3 {
   border: 0;
   border-radius: 0.75rem;
 }
+
+.content-section[aria-labelledby="titolo-galleria"] {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.content-section[aria-labelledby="titolo-come-arrivare"] {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+.content-section[aria-labelledby="titolo-come-arrivare"] > h2 {
+  margin-top: 0 !important;
+}
+
