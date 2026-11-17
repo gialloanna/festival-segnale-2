@@ -7,8 +7,8 @@
   --colore-primario-scuro: #3b39b9;
   --colore-sfondo: #f5f2e9;
   --colore-testo: #202923;
-  --font-testo: Inter, Helvetica, arial, sans-serif;
-  --font-titoli: Stack sans-serif, Helvetica, Arial, sans-serif;
+  --font-testo: Roboto, Helvetica, arial, sans-serif;
+  --font-titoli: Outfit, Helvetica, arial, sans-serif;
 }
 
 * {
