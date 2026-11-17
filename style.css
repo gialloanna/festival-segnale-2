@@ -3,10 +3,10 @@
 
 /* Scelte comuni: ogni regola usa var() per richiamarne il valore. */
 :root {
-  --colore-primario: #001171;
-  --colore-primario-scuro: #3b39b9;
-  --colore-sfondo: #f5f2e9;
-  --colore-testo: #202923;
+  --colore-primario: #9B489B;
+  --colore-primario-scuro: #7F557D;
+  --colore-sfondo:#DAE0F2A3  ;
+  --colore-testo: #191414;
   --font-testo: Roboto, Helvetica, arial, sans-serif;
   --font-titoli: Outfit, Helvetica, arial, sans-serif;
 }
@@ -296,3 +296,31 @@ h3 {
   margin-top: 0 !important;
 }
 
+.galleria-luoghi {
+  position: relative;
+  width: 100%;
+  max-width: 54rem;
+}
+
+.galleria-luoghi figure {
+  margin: 0;
+}
+
+.galleria-luoghi img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 32rem;
+  object-fit: contain;
+}
+
+.galleria-luoghi figcaption {
+  padding: 0.75rem 3rem;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.galleria-luoghi .swiper-button-prev,
+.galleria-luoghi .swiper-button-next {
+  color: var(--colore-primario);
+}
